@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="es" class="h-full">
+ <head>
+<!-- Meta Pixel -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1304092921796481');
+fbq('track', 'PageView');
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clientes Constantes para Electricistas</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
+  <script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        obra: '#F5C518',
+        obraDark: '#D4A90A',
+        carbon: '#1A1A1A',
+        steel: '#2A2A2A',
+        concrete: '#3A3A3A',
+        smoke: '#B0B0B0',
+      },
+      fontFamily: {
+        heading: ['Oswald', 'sans-serif'],
+        body: ['Source Sans 3', 'sans-serif'],
+      }
+    }
+  }
+}
+</script>
+<style>
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+.pulse-btn {
+  animation: pulse 1.2s infinite;
+}
+</style>
+  <style>
+html, body { height: 100%; margin: 0; }
+* { box-sizing: border-box; }
+.cta-btn {
+  background: #F5C518;
+  color: #1A1A1A;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.2s;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+.cta-btn:hover { background: #D4A90A; transform: scale(1.03); }
+.cta-btn:active { transform: scale(0.98); }
+.phase-card { border-left: 4px solid #F5C518; }
+.bonus-card { border: 1px solid #3A3A3A; transition: border-color 0.2s; }
+.bonus-card:hover { border-color: #F5C518; }
+.testimonial-card { border-top: 3px solid #F5C518; }
+.stripe-bg {
+  background: repeating-linear-gradient(135deg, transparent, transparent 10px, rgba(245,197,24,0.03) 10px, rgba(245,197,24,0.03) 20px);
+}
+.glow-border { box-shadow: 0 0 30px rgba(245,197,24,0.15); }
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-up { animation: fadeUp 0.6s ease-out forwards; }
+.fade-up-d1 { animation-delay: 0.1s; opacity: 0; }
+.fade-up-d2 { animation-delay: 0.2s; opacity: 0; }
+.fade-up-d3 { animation-delay: 0.3s; opacity: 0; }
+</style>
+  <style>body { box-sizing: border-box; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="h-full">
+  <div id="app" class="w-full h-full bg-carbon text-white font-body overflow-auto"><!-- HERO -->
+   <section class="w-full bg-carbon stripe-bg">
+  <div class="max-w-2xl mx-auto px-5 pt-10 pb-12 text-center">
+
+    <div class="inline-block bg-obra text-carbon font-heading font-bold text-xs tracking-widest px-4 py-1.5 rounded-sm mb-6">
+      ⚡ PARA ELECTRICISTAS INDEPENDIENTES
+    </div>
+
+    <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight mb-5">
+      ¿MANDÁS PRESUPUESTOS Y NO TE RESPONDEN?
+    </h1>
+
+    <p class="text-smoke text-lg md:text-xl leading-relaxed mb-6 max-w-xl mx-auto">
+      <strong>No es el cliente.</strong><br>
+      Estás cometiendo errores que te hacen perder trabajos sin darte cuenta.
+    </p>
+    <p class="text-smoke text-lg mb-6">
+      Con este sistema vas a:
+    </p>
+    <ul class="text-left max-w-md mx-auto mb-8 space-y-2 text-smoke">
+      <li>✔ lograr que te respondan los presupuestos</li>
+      <li>✔ cerrar más trabajos</li>
+      <li>✔ dejar de perder clientes</li>
+    </ul>
+
+    <div class="mb-8 flex justify-center">
+      <img src="https://i.postimg.cc/nc4KW6MQ/Portada-Terminada.png"
+           alt="ebook electricistas"
+           class="w-64 md:w-72 rounded-lg shadow-2xl border border-obra/40">
+    </div>
+
+    <a href="https://tiendaunika2026.empretienda.com.ar/general/negocio-electrico-desde-cero"
+onclick="fbq('track', 'InitiateCheckout')"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="cta-btn text-lg px-10 py-4 rounded-md">
+       QUIERO QUE ME RESPONDAN LOS PRESUPUESTOS
+    </a>
+
+    <p class="text-concrete text-sm mt-4">
+      ⚡ Acceso inmediato · Descarga directa
+    </p>
+
+  </div>
+</section>
+<!-- IDENTIFICATION + PAIN -->
+   <section class="w-full bg-steel">
+    <div class="max-w-2xl mx-auto px-5 py-12">
+     <h2 class="font-heading text-2xl md:text-3xl font-bold mb-6 text-center">¿Te suena alguna de estas?</h2>
+     <div class="space-y-4">
+      <div class="flex items-start gap-3 bg-carbon rounded-lg p-4"><span class="text-obra text-xl mt-0.5">✗</span>
+       <p class="text-smoke">Tenés semanas buenas y semanas donde no suena el teléfono.</p>
+      </div>
+      <div class="flex items-start gap-3 bg-carbon rounded-lg p-4"><span class="text-obra text-xl mt-0.5">✗</span>
+       <p class="text-smoke">Dependés de que alguien te recomiende para tener laburo.</p>
+      </div>
+      <div class="flex items-start gap-3 bg-carbon rounded-lg p-4"><span class="text-obra text-xl mt-0.5">✗</span>
+       <p class="text-smoke">Sabés que sos bueno en lo que hacés, pero no sabés cómo venderlo.</p>
+      </div>
+      <div class="flex items-start gap-3 bg-carbon rounded-lg p-4"><span class="text-obra text-xl mt-0.5">✗</span>
+       <p class="text-smoke">Competís por precio y terminás cobrando menos de lo que vale tu trabajo.</p>
+      </div>
+      <div class="flex items-start gap-3 bg-carbon rounded-lg p-4"><span class="text-obra text-xl mt-0.5">✗</span>
+       <p class="text-smoke">Publicás en redes y nadie te escribe.</p>
+      </div>
+     </div>
+     <p class="text-center text-obra font-heading font-semibold text-lg mt-8">No es tu culpa. Nadie te enseñó a conseguir clientes.</p>
+    </div>
+   </section><!-- 3 ERRORS -->
+   <section class="w-full bg-carbon stripe-bg">
+    <div class="max-w-2xl mx-auto px-5 py-12">
+     <h2 class="font-heading text-2xl md:text-3xl font-bold mb-2 text-center">3 errores que te están frenando</h2>
+     <p class="text-smoke text-center mb-8">Seguro estás haciendo alguno de estos:</p>
+     <div class="space-y-5">
+      <div class="bg-steel rounded-lg p-5 border-l-4 border-red-500">
+       <div class="flex items-center gap-3 mb-2"><span class="bg-red-500 text-white font-heading font-bold w-8 h-8 rounded-full flex items-center justify-center text-sm">1</span>
+        <h3 class="font-heading font-semibold text-lg">Publicar flyers en Facebook esperando clientes</h3>
+       </div>
+       <p class="text-smoke text-sm ml-11">Subís una imagen genérica y esperás que llueva trabajo. No funciona así.</p>
+      </div>
+      <div class="bg-steel rounded-lg p-5 border-l-4 border-red-500">
+       <div class="flex items-center gap-3 mb-2"><span class="bg-red-500 text-white font-heading font-bold w-8 h-8 rounded-full flex items-center justify-center text-sm">2</span>
+        <h3 class="font-heading font-semibold text-lg">Comentar "electricista disponible" en publicaciones</h3>
+       </div>
+       <p class="text-smoke text-sm ml-11">Parecés uno más. No generás confianza ni te diferenciás de nadie.</p>
+      </div>
+      <div class="bg-steel rounded-lg p-5 border-l-4 border-red-500">
+       <div class="flex items-center gap-3 mb-2"><span class="bg-red-500 text-white font-heading font-bold w-8 h-8 rounded-full flex items-center justify-center text-sm">3</span>
+        <h3 class="font-heading font-semibold text-lg">Explicar demasiado técnico en vez de vender</h3>
+       </div>
+       <p class="text-smoke text-sm ml-11">Al cliente no le importa si usás cable Iram o llave térmica de 16A marca XXX. Quiere saber que va a estar bien.</p>
+      </div>
+     </div>
+    </div>
+   </section>
+<section class="w-full bg-carbon">
+  <div class="max-w-2xl mx-auto px-5 py-12 text-center">
+
+    <h2 class="font-heading text-2xl md:text-3xl font-bold mb-6">
+      No te lo dice un "gurú"
+    </h2>
+
+    <p class="text-smoke text-lg mb-6 max-w-xl mx-auto">
+      Soy electricista y pasé por lo mismo: mandar presupuestos y que no respondan.
+    </p>
+
+    <p class="text-smoke mb-6 max-w-xl mx-auto">
+      Probé distintas formas hasta entender qué funciona de verdad.
+      Esto no es teoría de marketing.
+      Es lo que uso para conseguir clientes y cerrar trabajos.
+    </p>
+
+    <div class="flex justify-center mb-6">
+      <img src="https://i.postimg.cc/027VYbq0/generated-image-1775230956.jpg"
+           alt="electricista"
+           class="w-100 h-100 object-cover rounded-none border-4 border-obra">
+    </div>
+
+    <p class="text-obra font-semibold">
+      Si a mí me sirvió, a vos también te puede servir.
+    </p>
+
+  </div>
+</section>
+<!-- VALUE PROP -->
+   <section class="w-full bg-steel">
+    <div class="max-w-2xl mx-auto px-5 py-12 text-center">
+     <div class="text-obra text-4xl mb-4">
+      <svg class="mx-auto" width="56" height="56" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+       <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+      </svg>
+     </div>
+     <h2 class="font-heading text-2xl md:text-3xl font-bold mb-4">Esto no es otro curso genérico.</h2>
+     <p class="text-smoke text-lg max-w-lg mx-auto mb-6">"Clientes Constantes para Electricistas" es un <span class="text-obra font-semibold">sistema probado</span>, armado desde la experiencia real del oficio. Sin teoría de marketing. Sin humo.</p>
+     <p class="text-white font-semibold text-lg">Un método simple que podés aplicar desde hoy.</p>
+    </div>
+   </section><!-- BENEFITS -->
+   <section class="w-full bg-carbon">
+    <div class="max-w-2xl mx-auto px-5 py-12">
+     <h2 class="font-heading text-2xl md:text-3xl font-bold mb-8 text-center">¿Qué vas a lograr?</h2>
+     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="flex items-start gap-3 bg-steel rounded-lg p-5"><span class="text-obra text-xl">✔</span>
+       <p class="font-semibold">Lograr que te respondan los presupuestos</p>
+      </div>
+      <div class="flex items-start gap-3 bg-steel rounded-lg p-5"><span class="text-obra text-xl">✔</span>
+       <p class="font-semibold">Cerrar más trabajos sin bajar precios</p>
+      </div>
+      <div class="flex items-start gap-3 bg-steel rounded-lg p-5"><span class="text-obra text-xl">✔</span>
+       <p class="font-semibold">Dejar de perder clientes por errores simples</p>
+      </div>
+      <div class="flex items-start gap-3 bg-steel rounded-lg p-5"><span class="text-obra text-xl">✔</span>
+       <p class="font-semibold">Que te elijan sin tener que regalar tu trabajo</p>
+      </div>
+     </div>
+     <div class="text-center mt-8"><a href="https://tiendaunika2026.empretienda.com.ar/general/negocio-electrico-desde-cero"
+onclick="fbq('track', 'InitiateCheckout')"
+ target="_blank" rel="noopener noreferrer" class="cta-btn text-base px-8 py-3.5 rounded-md">QUIERO EL EBOOK AHORA</a>
+     </div>
+    </div>
+   </section><!-- 5 PHASES -->
+   <section class="w-full bg-steel stripe-bg">
+    <div class="max-w-2xl mx-auto px-5 py-12">
+     <h2 class="font-heading text-2xl md:text-3xl font-bold mb-3 text-center">Las 5 fases del sistema</h2>
+     <p class="text-smoke text-center mb-8">Seguí estos pasos y empezá a ver resultados.</p>
+     <div class="space-y-4">
+      <div class="phase-card bg-carbon rounded-lg p-5">
+       <div class="flex items-center gap-3 mb-1"><span class="font-heading font-bold text-obra text-2xl">01</span>
+        <h3 class="font-heading font-semibold text-lg">Atracción</h3>
+       </div>
+       <p class="text-smoke text-sm ml-10">Cómo hacer que los clientes te encuentren a vos (y no al revés).</p>
+      </div>
+      <div class="phase-card bg-carbon rounded-lg p-5">
+       <div class="flex items-center gap-3 mb-1"><span class="font-heading font-bold text-obra text-2xl">02</span>
+        <h3 class="font-heading font-semibold text-lg">Primer contacto</h3>
+       </div>
+       <p class="text-smoke text-sm ml-10">Qué decir y cómo responder para no perder al cliente en el primer mensaje.</p>
+      </div>
+      <div class="phase-card bg-carbon rounded-lg p-5">
+       <div class="flex items-center gap-3 mb-1"><span class="font-heading font-bold text-obra text-2xl">03</span>
+        <h3 class="font-heading font-semibold text-lg">Presentación</h3>
+       </div>
+       <p class="text-smoke text-sm ml-10">Cómo mostrar tu trabajo para que el cliente confíe y te elija.</p>
+      </div>
+      <div class="phase-card bg-carbon rounded-lg p-5">
+       <div class="flex items-center gap-3 mb-1"><span class="font-heading font-bold text-obra text-2xl">04</span>
+        <h3 class="font-heading font-semibold text-lg">Cierre</h3>
+       </div>
+       <p class="text-smoke text-sm ml-10">Cómo cerrar el trabajo sin regateos ni clientes que "te avisan después".</p>
+      </div>
+      <div class="phase-card bg-carbon rounded-lg p-5">
+       <div class="flex items-center gap-3 mb-1"><span class="font-heading font-bold text-obra text-2xl">05</span>
+        <h3 class="font-heading font-semibold text-lg">Seguimiento</h3>
+       </div>
+       <p class="text-smoke text-sm ml-10">Que cada cliente te recomiende y te vuelva a llamar.</p>
+      </div>
+     </div>
+    </div>
+   </section><!-- WHAT'S INCLUDED -->
+   <section class="w-full bg-carbon">
+    <div class="max-w-2xl mx-auto px-5 py-12 text-center">
+     <h2 class="font-heading text-2xl md:text-3xl font-bold mb-8">¿Qué incluye?</h2>
+     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="bg-steel rounded-lg p-6">
+       <div class="text-obra mb-3">
+        <i data-lucide="file-text" style="width:40px;height:40px;margin:0 auto;"></i>
+       </div>
+       <h3 class="font-heading font-semibold text-lg mb-1">Manual completo</h3>
+       <p class="text-smoke text-sm">Ebook en PDF con todo el sistema explicado paso a paso.</p>
+      </div>
+      <div class="bg-steel rounded-lg p-6">
+       <div class="text-obra mb-3">
+        <i data-lucide="zap" style="width:40px;height:40px;margin:0 auto;"></i>
+       </div>
+       <h3 class="font-heading font-semibold text-lg mb-1">Acceso inmediato</h3>
+       <p class="text-smoke text-sm">Comprás y ya lo tenés. Sin esperas.</p>
+      </div>
+      <div class="bg-steel rounded-lg p-6">
+       <div class="text-obra mb-3">
+        <i data-lucide="download" style="width:40px;height:40px;margin:0 auto;"></i>
+       </div>
+       <h3 class="font-heading font-semibold text-lg mb-1">Descarga directa</h3>
+       <p class="text-smoke text-sm">Link de Google Drive para descargar en cualquier dispositivo.</p>
+      </div>
+     </div>
+    </div>
+   </section><!-- BONUSES -->
+   <section class="w-full bg-steel stripe-bg">
+    <div class="max-w-2xl mx-auto px-5 py-12">
+     <h2 class="font-heading text-2xl md:text-3xl font-bold mb-2 text-center">🎁 Además, te llevás 5 bonos</h2>
+     <p class="text-smoke text-center mb-8">Incluidos sin costo extra con tu compra.</p>
+     <div class="space-y-4">
+      <div class="bonus-card bg-carbon rounded-lg p-5">
+       <div class="flex items-center gap-3 mb-2"><span class="bg-obra text-carbon font-heading font-bold w-8 h-8 rounded-full flex items-center justify-center text-sm">1</span>
+        <h3 class="font-heading font-semibold">Plantilla de presupuestos profesional</h3>
+       </div>
+       <p class="text-smoke text-sm ml-11">Copiá, completá y mandá. Tu presupuesto va a parecer de otra liga.</p>
+      </div>
+      <div class="bonus-card bg-carbon rounded-lg p-5">
+       <div class="flex items-center gap-3 mb-2"><span class="bg-obra text-carbon font-heading font-bold w-8 h-8 rounded-full flex items-center justify-center text-sm">2</span>
+        <h3 class="font-heading font-semibold">Guía de mensajes para WhatsApp</h3>
+       </div>
+       <p class="text-smoke text-sm ml-11">Mensajes listos para responder consultas y cerrar trabajos más rápido.</p>
+      </div>
+      <div class="bonus-card bg-carbon rounded-lg p-5">
+       <div class="flex items-center gap-3 mb-2"><span class="bg-obra text-carbon font-heading font-bold w-8 h-8 rounded-full flex items-center justify-center text-sm">3</span>
+        <h3 class="font-heading font-semibold">Checklist de trabajo terminado</h3>
+       </div>
+       <p class="text-smoke text-sm ml-11">Revisá todo antes de entregar. Profesionalismo que el cliente nota.</p>
+      </div>
+      <div class="bonus-card bg-carbon rounded-lg p-5">
+       <div class="flex items-center gap-3 mb-2"><span class="bg-obra text-carbon font-heading font-bold w-8 h-8 rounded-full flex items-center justify-center text-sm">4</span>
+        <h3 class="font-heading font-semibold">Mini guía de cierre de ventas</h3>
+       </div>
+       <p class="text-smoke text-sm ml-11">Las frases exactas para que el cliente diga "dale, hacémelo".</p>
+      </div>
+      <div class="bonus-card bg-carbon rounded-lg p-5">
+       <div class="flex items-center gap-3 mb-2"><span class="bg-obra text-carbon font-heading font-bold w-8 h-8 rounded-full flex items-center justify-center text-sm">5</span>
+        <h3 class="font-heading font-semibold">Ejemplos reales de publicaciones que venden</h3>
+       </div>
+       <p class="text-smoke text-sm ml-11">Capturas y modelos de posts que ya funcionaron para otros electricistas.</p>
+      </div>
+     </div>
+    </div>
+   </section><!-- TESTIMONIALS -->
+   <section class="w-full bg-carbon">
+    <div class="max-w-2xl mx-auto px-5 py-12">
+     <h2 class="font-heading text-2xl md:text-3xl font-bold mb-8 text-center">Lo que dicen otros electricistas</h2>
+     <div class="space-y-5">
+      <div class="testimonial-card bg-steel rounded-lg p-5">
+       <p class="text-smoke italic mb-3">"Yo pensaba que el boca en boca era lo único que funcionaba. En dos semanas aplicando lo del ebook ya tenía 3 clientes nuevos por Instagram. Re claro todo."</p>
+       <p class="font-heading font-semibold text-obra">— Martín R., Electricista en Córdoba</p>
+      </div>
+      <div class="testimonial-card bg-steel rounded-lg p-5">
+       <p class="text-smoke italic mb-3">"Lo mejor es la parte de los mensajes. Antes perdía clientes porque no sabía qué contestar. Ahora cierro mucho más rápido."</p>
+       <p class="font-heading font-semibold text-obra">— Diego L., Electricista en Buenos Aires</p>
+      </div>
+      <div class="testimonial-card bg-steel rounded-lg p-5">
+       <p class="text-smoke italic mb-3">"Valió cada peso. Yo pagué cursos de 50 lucas que no me sirvieron. Esto es directo, sin vueltas, y funciona."</p>
+       <p class="font-heading font-semibold text-obra">— Lucas F., Electricista en Rosario</p>
+      </div>
+     </div>
+    </div>
+   </section><!-- GUARANTEE -->
+   <section class="w-full bg-steel">
+    <div class="max-w-2xl mx-auto px-5 py-12">
+     <div class="bg-carbon border-2 border-obra rounded-xl p-8 text-center glow-border">
+      <h2 class="font-heading text-2xl md:text-3xl font-bold mb-4">Tu Satisfacción es Nuestra Prioridad</h2>
+      <p class="text-smoke mb-6 max-w-md mx-auto">Si el ebook no te sirve, te devolvemos el dinero. Sin preguntas. Sin vueltas.</p>
+      <div class="flex flex-wrap justify-center gap-6">
+       <div class="flex items-center gap-2"><span class="text-2xl">🔒</span> <span class="font-heading font-semibold">Pago Seguro</span>
+       </div>
+       <div class="flex items-center gap-2"><span class="text-2xl">⚡</span> <span class="font-heading font-semibold">Acceso Inmediato</span>
+       </div>
+       <div class="flex items-center gap-2"><span class="text-2xl">🛡️</span> <span class="font-heading font-semibold">7 Días Garantía</span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- OFFER -->
+   <section class="w-full bg-carbon stripe-bg">
+    <div class="max-w-2xl mx-auto px-5 py-12 text-center">
+     <h2 class="font-heading text-2xl md:text-3xl font-bold mb-4">Todo esto por menos de lo que cobrás por una boca</h2>
+     <div class="bg-steel rounded-xl p-8 glow-border max-w-md mx-auto mb-6">
+      <p class="text-smoke line-through text-lg mb-1">$24.999</p>
+      <p id="el-price" class="font-heading text-5xl md:text-6xl font-bold text-obra mb-2">$16.999</p>
+<p class="text-obra font-bold text-lg mt-4">💸 15% OFF pagando por transferencia ($14.449)</p>
+<p class="text-smoke text-sm mt-1">El descuento se aplica al seleccionar <span class="text-obra font-semibold">TRANSFERENCIA</span> como medio de pago</p>      
+<p class="text-smoke text-sm mb-4">Pago único · Sin suscripciones</p>
+      <div class="bg-carbon rounded-lg p-3 mb-5">
+       <p class="text-sm text-smoke">💡 Lo recuperás con <span class="text-obra font-semibold">1 solo trabajo</span> que consigas aplicando el sistema.</p>
+      </div><a href="https://tiendaunika2026.empretienda.com.ar/general/negocio-electrico-desde-cero" onclick="fbq('track', 'InitiateCheckout')" target="_blank" rel="noopener noreferrer" class="cta-btn pulse-btn text-lg px-4 py-2 rounded-lg w-auto inline-block">QUIERO QUE ME RESPONDAN LOS PRESUPUESTOS</a><p class="text-smoke text-sm mb-4">Si llegaste hasta acá, esto es para vos.</p>
+     </div>
+     <p class="text-smoke text-sm">Ebook + 5 bonos · Descarga inmediata · Garantía 7 días</p>
+    </div>
+   </section><!-- FINAL CTA -->
+   <section class="w-full bg-steel">
+    <div class="max-w-2xl mx-auto px-5 py-12 text-center">
+     <h2 class="font-heading text-2xl md:text-3xl font-bold mb-4">Podés seguir esperando que suene el teléfono...</h2>
+     <p class="text-smoke text-lg mb-6 max-w-lg mx-auto">...o podés empezar hoy a conseguir clientes con un sistema que funciona. La decisión es tuya.</p>
+<a href="https://tiendaunika2026.empretienda.com.ar/general/negocio-electrico-desde-cero" onclick="fbq('track', 'InitiateCheckout')" target="_blank" rel="noopener noreferrer" class="cta-btn text-lg px-10 py-4 rounded-md">ACCEDER AHORA</a>
+     <p class="text-concrete text-xs mt-6">© 2025 Clientes Constantes para Electricistas. Todos los derechos reservados.</p>
+    </div>
+   </section>
+  </div>
+  <script>
+const CHECKOUT = "https://tiendaunika2026.empretienda.com.ar/checkout";
+
+const defaultConfig = {
+  hero_title: "¿Sos electricista y no conseguís clientes de forma constante?",
+  hero_subtitle: "Descubrí el sistema paso a paso que usan electricistas reales para conseguir clientes todas las semanas — sin depender del boca en boca.",
+  price_text: "$16.999",
+  cta_text: "QUIERO EMPEZAR HOY",
+  background_color: "#1A1A1A",
+  surface_color: "#2A2A2A",
+  text_color: "#FFFFFF",
+  primary_action: "#F5C518",
+  secondary_action: "#B0B0B0",
+  font_family: "Oswald",
+  font_size: 16
+};
+
+function applyConfig(config) {
+  const t = (k) => config[k] || defaultConfig[k];
+
+  document.getElementById("el-hero-title").textContent = t("hero_title");
+  document.getElementById("el-hero-subtitle").textContent = t("hero_subtitle");
+  document.getElementById("el-price").textContent = t("price_text");
+
+  // CTA buttons
+  const ctaText = t("cta_text");
+  document.getElementById("el-cta-hero").textContent = ctaText;
+
+  // Colors
+  const bg = t("background_color");
+  const surface = t("surface_color");
+  const textC = t("text_color");
+  const primary = t("primary_action");
+  const secondary = t("secondary_action");
+
+  document.documentElement.style.setProperty("--bg", bg);
+  document.getElementById("app").style.color = textC;
+
+  document.querySelectorAll(".cta-btn").forEach(b => {
+    b.style.background = primary;
+    b.style.color = bg;
+  });
+
+  document.querySelectorAll(".phase-card").forEach(c => c.style.borderLeftColor = primary);
+  document.querySelectorAll(".testimonial-card").forEach(c => c.style.borderTopColor = primary);
+
+  // Font
+  const font = t("font_family");
+  const baseSize = t("font_size");
+  document.querySelectorAll("[class*='font-heading']").forEach(el => {
+    el.style.fontFamily = `${font}, sans-serif`;
+  });
+  document.getElementById("el-hero-title").style.fontSize = `${baseSize * 2.25}px`;
+  document.getElementById("el-hero-subtitle").style.fontSize = `${baseSize * 1.15}px`;
+}
+
+window.elementSdk.init({
+  defaultConfig,
+  onConfigChange: async (config) => applyConfig(config),
+  mapToCapabilities: (config) => {
+    const c = (key) => ({
+      get: () => config[key] || defaultConfig[key],
+      set: (v) => { config[key] = v; window.elementSdk.setConfig({ [key]: v }); }
+    });
+    return {
+      recolorables: [c("background_color"), c("surface_color"), c("text_color"), c("primary_action"), c("secondary_action")],
+      borderables: [],
+      fontEditable: c("font_family"),
+      fontSizeable: {
+        get: () => config.font_size || defaultConfig.font_size,
+        set: (v) => { config.font_size = v; window.elementSdk.setConfig({ font_size: v }); }
+      }
+    };
+  },
+  mapToEditPanelValues: (config) => new Map([
+    ["hero_title", config.hero_title || defaultConfig.hero_title],
+    ["hero_subtitle", config.hero_subtitle || defaultConfig.hero_subtitle],
+    ["price_text", config.price_text || defaultConfig.price_text],
+    ["cta_text", config.cta_text || defaultConfig.cta_text],
+  ])
+});
+
+lucide.createIcons();
+</script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e5a5b5730afa78f',t:'MTc3NTA3NTQ4MC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!
+==document.readyState&&(document.onreadystatechange=e,c())}}}})();
+</script>
+
+<a href="https://wa.me/5492634677482?text=Hola,%20vi%20lo%20de%20los%20presupuestos%20y%20quiero%20más%20info"
+   target="_blank"
+   class="whatsapp-float">
+   <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" style="width:20px;height:20px;">
+   <span class="ws-text">¿Tenés dudas?<br>Escribime</span>
+</a>
+
+<style>
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  font-size: 16px;
+  padding: 10px 14px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  z-index: 999;
+}
+.ws-text {
+  font-size: 14px;
+}
+</style>
+
+</body>
+</html>
